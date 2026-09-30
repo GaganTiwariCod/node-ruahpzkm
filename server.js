@@ -1,4 +1,4 @@
-const app = require('./app.js');
+const app = require('./src/app.js');
 
 app.get('/health', (req, res) => {
   res.send('It working the application');
@@ -21,4 +21,5 @@ app.post('/node', (req, res) => {
 
 app.listen(3000, (req, res) => {
   console.log('Welcome to the Gagan Server');
+
 });
